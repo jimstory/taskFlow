@@ -1,0 +1,21 @@
+a {
+	color: #00B7FF;
+}
+.side-left {
+	float: left;
+	width: 50%;
+	border: 1px #dedede solid;
+}
+.side-right {
+	float: left;
+	width: 48%;
+	height: 100%;
+	border: 1px #dedede solid;
+}
+#code{ height: 900px;}
+#preview{
+	width: 100%;
+}
+.footer{
+	clear: both;
+}

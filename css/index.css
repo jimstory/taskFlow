@@ -1,0 +1,6 @@
+:root { } 
+::first-line
+::first-letter
+:not(x) 
+span + span 
+figure ~ p {}
