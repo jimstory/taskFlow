@@ -18,8 +18,6 @@
 	<{block name="content"}>
 		<div>
 			<h1><{$list.title}></h1>
-				<{$list.tag}>
 			<div id="content"><{$list.content}></div>
-			<div id="answer"> <{$list.answer}></div>
 		</div>
 	<{/block}>

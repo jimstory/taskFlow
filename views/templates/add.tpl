@@ -11,7 +11,7 @@
 	<{block name="content"}>
 		<div class="side-right">
 			<form action="add.php" method="post">
-				<label>标题ddd</label>：<input type="text" name="title" />
+				<label>标题</label>：<input type="text" name="title" />
 				<br/>
 				<br/>
 				<label>详情</label>：<textarea name="content" id="content"></textarea>

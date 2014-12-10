@@ -1,6 +1,6 @@
 <?php
-include  $_SERVER['DOCUMENT_ROOT'] ."interview/config.inc.php";
-include  $_SERVER['DOCUMENT_ROOT'] ."interview/db.php";
+include  $_SERVER['DOCUMENT_ROOT'] ."taskFlow/config.inc.php";
+include  $_SERVER['DOCUMENT_ROOT'] ."taskFlow/db.php";
 
   $db = new DB();
   $list = $db->query('SELECT * FROM `task`');

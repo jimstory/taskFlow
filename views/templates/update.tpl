@@ -14,7 +14,6 @@
 			<input type="hidden" value="<{$list.id}>" />
 				<label>标题</label>：<input type="text" name="title" value="<{$list.title}>" />
 				<br/>
-				<label>TAG</label>：<input type="text" name="tag" value="<{$list.tag}>" />
 				<br/>
 				<label>详情</label>：<textarea name="content" id="content"><{$list.content}></textarea>
 				<br/>

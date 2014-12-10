@@ -1,6 +1,5 @@
 <?php
 Class DB {
- 
     private $link_id;
     private $handle;
     private $is_log;
