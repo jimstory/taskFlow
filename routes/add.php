@@ -12,10 +12,12 @@ if(isset($_POST['title'])){
 	$data['content'] = $_POST['content'];
   $db->insert('task',$data);
 
-  $url = "http://localhost/taskFlow"; 
-echo "<script language='javascript' type='text/javascript'>"; 
-echo "window.location.href='$url'"; 
-echo "</script>";
+  $url = "http://".$_SERVER['HTTP_HOST']."/taskFlow"; 
+
+  //header("Location: ".$url); 
+	echo "<script language='javascript' type='text/javascript'>"; 
+	echo "window.location.href='$url'"; 
+	echo "</script>";
 }
 
 ?>

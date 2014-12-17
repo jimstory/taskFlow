@@ -1,0 +1,52 @@
+2014-12-16 23:57:02 插入 insert into task(id,title,content) values('','sdsd','sdsd')
+2014-12-16 23:57:02 查询 insert into task(id,title,content) values('','sdsd','sdsd')
+2014-12-16 23:57:02 释放结果集
+2014-12-16 23:57:02 完成整个查询任务,所用时间为0.14781308174133
+2014-12-16 23:58:24 插入 insert into task(id,title,content) values('','sdsd','sdsd')
+2014-12-16 23:58:24 查询 insert into task(id,title,content) values('','sdsd','sdsd')
+2014-12-16 23:58:24 释放结果集
+2014-12-16 23:58:24 完成整个查询任务,所用时间为0.1372218132019
+2014-12-16 23:59:02 插入 insert into task(id,title,content) values('','sgsd','fgsdg')
+2014-12-16 23:59:02 查询 insert into task(id,title,content) values('','sgsd','fgsdg')
+2014-12-16 23:59:02 释放结果集
+2014-12-16 23:59:02 完成整个查询任务,所用时间为0.19097709655762
+2014-12-16 23:59:27 插入 insert into task(id,title,content) values('','sgsd','fgsdg')
+2014-12-16 23:59:27 查询 insert into task(id,title,content) values('','sgsd','fgsdg')
+2014-12-16 23:59:27 释放结果集
+2014-12-16 23:59:27 完成整个查询任务,所用时间为0.14563298225403
+2014-12-17 00:00:06 插入 insert into task(id,title,content) values('','dsfdf','dfdf')
+2014-12-17 00:00:06 查询 insert into task(id,title,content) values('','dsfdf','dfdf')
+2014-12-17 00:00:07 释放结果集
+2014-12-17 00:00:07 完成整个查询任务,所用时间为0.14135694503784
+2014-12-17 00:00:59 插入 insert into task(id,title,content) values('','sgsd','fgsdg')
+2014-12-17 00:00:59 查询 insert into task(id,title,content) values('','sgsd','fgsdg')
+2014-12-17 00:00:59 释放结果集
+2014-12-17 00:00:59 完成整个查询任务,所用时间为0.091286897659302
+2014-12-17 00:01:28 插入 insert into task(id,title,content) values('','ssss','ssss')
+2014-12-17 00:01:28 查询 insert into task(id,title,content) values('','ssss','ssss')
+2014-12-17 00:01:28 释放结果集
+2014-12-17 00:01:28 完成整个查询任务,所用时间为0.14553618431091
+2014-12-17 00:02:06 插入 insert into task(id,title,content) values('','sss','ssss')
+2014-12-17 00:02:06 查询 insert into task(id,title,content) values('','sss','ssss')
+2014-12-17 00:02:06 释放结果集
+2014-12-17 00:02:06 完成整个查询任务,所用时间为0.10221004486084
+2014-12-17 00:02:36 插入 insert into task(id,title,content) values('','sss','')
+2014-12-17 00:02:36 查询 insert into task(id,title,content) values('','sss','')
+2014-12-17 00:02:36 释放结果集
+2014-12-17 00:02:36 完成整个查询任务,所用时间为0.096943855285645
+2014-12-17 00:03:04 插入 insert into task(id,title,content) values('','sss','sss')
+2014-12-17 00:03:04 查询 insert into task(id,title,content) values('','sss','sss')
+2014-12-17 00:03:04 释放结果集
+2014-12-17 00:03:04 完成整个查询任务,所用时间为0.1932590007782
+2014-12-17 00:09:27 插入 insert into task(id,title,content) values('','sss','sss')
+2014-12-17 00:09:27 查询 insert into task(id,title,content) values('','sss','sss')
+2014-12-17 00:09:27 释放结果集
+2014-12-17 00:09:27 完成整个查询任务,所用时间为0.095328092575073
+2014-12-17 00:09:34 插入 insert into task(id,title,content) values('','sdfs','sdsfasd')
+2014-12-17 00:09:34 查询 insert into task(id,title,content) values('','sdfs','sdsfasd')
+2014-12-17 00:09:34 释放结果集
+2014-12-17 00:09:34 完成整个查询任务,所用时间为0.10442304611206
+2014-12-17 00:10:33 插入 insert into task(id,title,content) values('','dsdsd','sdsd')
+2014-12-17 00:10:33 查询 insert into task(id,title,content) values('','dsdsd','sdsd')
+2014-12-17 00:10:33 释放结果集
+2014-12-17 00:10:33 完成整个查询任务,所用时间为0.099607944488525

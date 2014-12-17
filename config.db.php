@@ -1,5 +1,5 @@
 <?php 
-    $db_config["hostname"] = "cp01-rdqa-dev346.cp01.baidu.com:8806"; //服务器地址
+    $db_config["hostname"] = "lihuazhai.mysql.rds.aliyuncs.com"; //服务器地址
     $db_config["username"] = "lihuazh2_task"; //数据库用户名
     $db_config["password"] = "lihuazhai_2014"; //数据库密码
     $db_config["database"] = "lihuazh2_task"; //数据库名称
