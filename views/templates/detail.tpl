@@ -10,7 +10,6 @@
 			$(function() {
 				  (function() {
 				    $("#content").html(marked($("#content").html()));
-				    $("#answer").html(marked($("#answer").html()));
 				  })();
 				  })
 	  		</script>

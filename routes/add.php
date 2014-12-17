@@ -10,6 +10,9 @@ if(isset($_POST['title'])){
     $data['id'] = "";
 	$data['title'] = $_POST['title'];
 	$data['content'] = $_POST['content'];
+	$data['level'] = $_POST['level'];
+	$data['add_time'] = date("Y-m-d H:i:s");
+	$data['end_time'] = $_POST['end_time'];
   $db->insert('task',$data);
 
   $url = "http://".$_SERVER['HTTP_HOST']."/taskFlow"; 

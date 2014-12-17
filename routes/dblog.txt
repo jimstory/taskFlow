@@ -290,3 +290,31 @@ asdf
 #sdfasdf' where 1=1 and id=21
 2014-12-17 02:44:12 释放结果集
 2014-12-17 02:44:12 完成整个查询任务,所用时间为0.20658898353577
+2014-12-17 03:42:44 插入 insert into task(id,title,content,add_time) values('','asdfasd','fasdfasdf','2014-12-17 03:42:44')
+2014-12-17 03:42:44 查询 insert into task(id,title,content,add_time) values('','asdfasd','fasdfasdf','2014-12-17 03:42:44')
+2014-12-17 03:42:44 释放结果集
+2014-12-17 03:42:44 完成整个查询任务,所用时间为0.21136403083801
+2014-12-17 03:49:16 插入 insert into task(id,title,content,level,add_time) values('','sdafasdf','fasdfasdf','P3','2014-12-17 03:49:16')
+2014-12-17 03:49:16 查询 insert into task(id,title,content,level,add_time) values('','sdafasdf','fasdfasdf','P3','2014-12-17 03:49:16')
+2014-12-17 03:49:16 释放结果集
+2014-12-17 03:49:16 完成整个查询任务,所用时间为0.086169004440308
+2014-12-17 05:40:40 插入 insert into task(id,title,content,level,add_time,end_time) values('','sdfasdf','asdfasdf','P1','2014-12-17 05:40:40','2014-11-17')
+2014-12-17 05:40:40 查询 insert into task(id,title,content,level,add_time,end_time) values('','sdfasdf','asdfasdf','P1','2014-12-17 05:40:40','2014-11-17')
+2014-12-17 05:40:40 释放结果集
+2014-12-17 05:40:40 完成整个查询任务,所用时间为0.27069020271301
+2014-12-17 08:49:19 查询 SELECT * FROM `task` where id = 3
+2014-12-17 08:49:19 获取一条记录 SELECT * FROM `task` where id = 3
+2014-12-17 08:49:19 释放结果集
+2014-12-17 08:49:19 完成整个查询任务,所用时间为0.21945309638977
+2014-12-17 08:49:30 更新 update task set title = 'ddddsdfgsdfg',content = 'sdfasdfasdfasdfasdfasdfasdf',title = 'ddddsdfgsdfg',content = 'sdfasdfasdfasdfasdfasdfasdf' where 1=1 and id=3
+2014-12-17 08:49:30 查询 update task set title = 'ddddsdfgsdfg',content = 'sdfasdfasdfasdfasdfasdfasdf',title = 'ddddsdfgsdfg',content = 'sdfasdfasdfasdfasdfasdfasdf' where 1=1 and id=3
+2014-12-17 08:49:30 释放结果集
+2014-12-17 08:49:30 完成整个查询任务,所用时间为0.14462804794312
+2014-12-17 08:49:32 查询 SELECT * FROM `task` where id = 2
+2014-12-17 08:49:32 获取一条记录 SELECT * FROM `task` where id = 2
+2014-12-17 08:49:32 释放结果集
+2014-12-17 08:49:32 完成整个查询任务,所用时间为0.16714406013489
+2014-12-17 08:49:37 更新 update task set title = 'sdfasdddddd',content = 'fasdfasdfddddddd',title = 'sdfasdddddd',content = 'fasdfasdfddddddd' where 1=1 and id=2
+2014-12-17 08:49:37 查询 update task set title = 'sdfasdddddd',content = 'fasdfasdfddddddd',title = 'sdfasdddddd',content = 'fasdfasdfddddddd' where 1=1 and id=2
+2014-12-17 08:49:37 释放结果集
+2014-12-17 08:49:37 完成整个查询任务,所用时间为0.10567998886108
