@@ -50,3 +50,243 @@
 2014-12-17 00:10:33 查询 insert into task(id,title,content) values('','dsdsd','sdsd')
 2014-12-17 00:10:33 释放结果集
 2014-12-17 00:10:33 完成整个查询任务,所用时间为0.099607944488525
+2014-12-17 00:15:08 查询 SELECT * FROM `task` where id = 1
+2014-12-17 00:15:08 获取一条记录 SELECT * FROM `task` where id = 1
+2014-12-17 00:15:09 释放结果集
+2014-12-17 00:15:09 完成整个查询任务,所用时间为0.14659690856934
+2014-12-17 00:15:12 查询 SELECT * FROM `task` where id = 
+2014-12-17 00:15:12 Query Error: SELECT * FROM `task` where id = 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2014-12-17 00:15:12 释放结果集
+2014-12-17 00:15:12 完成整个查询任务,所用时间为0.095848083496094
+2014-12-17 00:17:04 查询 SELECT * FROM `task` where id = 10
+2014-12-17 00:17:04 获取一条记录 SELECT * FROM `task` where id = 10
+2014-12-17 00:17:04 释放结果集
+2014-12-17 00:17:04 完成整个查询任务,所用时间为0.091992139816284
+2014-12-17 00:17:08 查询 SELECT * FROM `task` where id = 
+2014-12-17 00:17:08 Query Error: SELECT * FROM `task` where id = 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2014-12-17 00:17:08 释放结果集
+2014-12-17 00:17:08 完成整个查询任务,所用时间为0.094543933868408
+2014-12-17 00:17:17 查询 SELECT * FROM `task` where id = 10
+2014-12-17 00:17:17 获取一条记录 SELECT * FROM `task` where id = 10
+2014-12-17 00:17:17 释放结果集
+2014-12-17 00:17:17 完成整个查询任务,所用时间为0.092679977416992
+2014-12-17 00:17:18 查询 SELECT * FROM `task` where id = 10
+2014-12-17 00:17:18 获取一条记录 SELECT * FROM `task` where id = 10
+2014-12-17 00:17:18 释放结果集
+2014-12-17 00:17:18 完成整个查询任务,所用时间为0.091250896453857
+2014-12-17 00:18:34 查询 SELECT * FROM `task` where id = 10
+2014-12-17 00:18:34 获取一条记录 SELECT * FROM `task` where id = 10
+2014-12-17 00:18:34 释放结果集
+2014-12-17 00:18:34 完成整个查询任务,所用时间为0.092954874038696
+2014-12-17 00:18:39 查询 SELECT * FROM `task` where id = 
+2014-12-17 00:18:39 Query Error: SELECT * FROM `task` where id = 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2014-12-17 00:18:39 释放结果集
+2014-12-17 00:18:39 完成整个查询任务,所用时间为0.09346604347229
+2014-12-17 00:19:44 查询 SELECT * FROM `task` where id = 10
+2014-12-17 00:19:44 获取一条记录 SELECT * FROM `task` where id = 10
+2014-12-17 00:19:44 释放结果集
+2014-12-17 00:19:44 完成整个查询任务,所用时间为0.092619895935059
+2014-12-17 00:19:45 查询 SELECT * FROM `task` where id = 10
+2014-12-17 00:19:45 获取一条记录 SELECT * FROM `task` where id = 10
+2014-12-17 00:19:45 释放结果集
+2014-12-17 00:19:45 完成整个查询任务,所用时间为0.095026016235352
+2014-12-17 00:19:45 查询 SELECT * FROM `task` where id = 10
+2014-12-17 00:19:45 查询 SELECT * FROM `task` where id = 10
+2014-12-17 00:19:45 获取一条记录 SELECT * FROM `task` where id = 10
+2014-12-17 00:19:45 释放结果集
+2014-12-17 00:19:45 完成整个查询任务,所用时间为0.097094058990479
+2014-12-17 00:19:45 获取一条记录 SELECT * FROM `task` where id = 10
+2014-12-17 00:19:45 释放结果集
+2014-12-17 00:19:45 完成整个查询任务,所用时间为0.08978796005249
+2014-12-17 00:19:45 查询 SELECT * FROM `task` where id = 10
+2014-12-17 00:19:45 获取一条记录 SELECT * FROM `task` where id = 10
+2014-12-17 00:19:45 释放结果集
+2014-12-17 00:19:45 完成整个查询任务,所用时间为0.10267496109009
+2014-12-17 00:19:45 查询 SELECT * FROM `task` where id = 10
+2014-12-17 00:19:45 获取一条记录 SELECT * FROM `task` where id = 10
+2014-12-17 00:19:45 释放结果集
+2014-12-17 00:19:45 完成整个查询任务,所用时间为0.09564995765686
+2014-12-17 00:19:45 查询 SELECT * FROM `task` where id = 10
+2014-12-17 00:19:45 获取一条记录 SELECT * FROM `task` where id = 10
+2014-12-17 00:19:45 释放结果集
+2014-12-17 00:19:45 完成整个查询任务,所用时间为0.090999126434326
+2014-12-17 00:19:45 查询 SELECT * FROM `task` where id = 10
+2014-12-17 00:19:45 获取一条记录 SELECT * FROM `task` where id = 10
+2014-12-17 00:19:45 释放结果集
+2014-12-17 00:19:45 完成整个查询任务,所用时间为0.091818809509277
+2014-12-17 00:19:48 更新 update task set title = 'sgsdrrr',content = 'fgsdgrrrr',title = 'sgsdrrr',content = 'fgsdgrrrr' where 1=1 and id=
+2014-12-17 00:19:48 查询 update task set title = 'sgsdrrr',content = 'fgsdgrrrr',title = 'sgsdrrr',content = 'fgsdgrrrr' where 1=1 and id=
+2014-12-17 00:19:49 Query Error: update task set title = 'sgsdrrr',content = 'fgsdgrrrr',title = 'sgsdrrr',content = 'fgsdgrrrr' where 1=1 and id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2014-12-17 00:19:49 释放结果集
+2014-12-17 00:19:49 完成整个查询任务,所用时间为0.10521483421326
+2014-12-17 00:20:46 查询 SELECT * FROM `task` where id = 10
+2014-12-17 00:20:46 获取一条记录 SELECT * FROM `task` where id = 10
+2014-12-17 00:20:46 释放结果集
+2014-12-17 00:20:46 完成整个查询任务,所用时间为0.092152118682861
+2014-12-17 00:20:50 更新 update task set title = 'sgsdrrr',content = 'fgsdgrrr',title = 'sgsdrrr',content = 'fgsdgrrr' where 1=1 and id=
+2014-12-17 00:20:50 查询 update task set title = 'sgsdrrr',content = 'fgsdgrrr',title = 'sgsdrrr',content = 'fgsdgrrr' where 1=1 and id=
+2014-12-17 00:20:50 Query Error: update task set title = 'sgsdrrr',content = 'fgsdgrrr',title = 'sgsdrrr',content = 'fgsdgrrr' where 1=1 and id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2014-12-17 00:20:50 释放结果集
+2014-12-17 00:20:50 完成整个查询任务,所用时间为0.089879035949707
+2014-12-17 00:21:55 查询 SELECT * FROM `task` where id = 10
+2014-12-17 00:21:55 获取一条记录 SELECT * FROM `task` where id = 10
+2014-12-17 00:21:55 释放结果集
+2014-12-17 00:21:55 完成整个查询任务,所用时间为0.097008943557739
+2014-12-17 00:21:58 更新 update task set title = 'sgsddddd',content = 'ddddfgsdg',title = 'sgsddddd',content = 'ddddfgsdg' where 1=1 and id=
+2014-12-17 00:21:58 查询 update task set title = 'sgsddddd',content = 'ddddfgsdg',title = 'sgsddddd',content = 'ddddfgsdg' where 1=1 and id=
+2014-12-17 00:21:58 Query Error: update task set title = 'sgsddddd',content = 'ddddfgsdg',title = 'sgsddddd',content = 'ddddfgsdg' where 1=1 and id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2014-12-17 00:21:58 释放结果集
+2014-12-17 00:21:58 完成整个查询任务,所用时间为0.093040943145752
+2014-12-17 00:22:48 更新 update task set title = 'sgsddddd',content = 'ddddfgsdg',title = 'sgsddddd',content = 'ddddfgsdg' where 1=1 and id=
+2014-12-17 00:22:48 查询 update task set title = 'sgsddddd',content = 'ddddfgsdg',title = 'sgsddddd',content = 'ddddfgsdg' where 1=1 and id=
+2014-12-17 00:22:48 Query Error: update task set title = 'sgsddddd',content = 'ddddfgsdg',title = 'sgsddddd',content = 'ddddfgsdg' where 1=1 and id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2014-12-17 00:22:48 释放结果集
+2014-12-17 00:22:48 完成整个查询任务,所用时间为0.090969800949097
+2014-12-17 00:22:52 查询 SELECT * FROM `task` where id = 10
+2014-12-17 00:22:52 获取一条记录 SELECT * FROM `task` where id = 10
+2014-12-17 00:22:52 释放结果集
+2014-12-17 00:22:52 完成整个查询任务,所用时间为0.14837503433228
+2014-12-17 00:22:56 更新 update task set title = 'sgsdddd',content = 'fgsdgddd',title = 'sgsdddd',content = 'fgsdgddd' where 1=1 and id=
+2014-12-17 00:22:56 查询 update task set title = 'sgsdddd',content = 'fgsdgddd',title = 'sgsdddd',content = 'fgsdgddd' where 1=1 and id=
+2014-12-17 00:22:56 Query Error: update task set title = 'sgsdddd',content = 'fgsdgddd',title = 'sgsdddd',content = 'fgsdgddd' where 1=1 and id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2014-12-17 00:22:56 释放结果集
+2014-12-17 00:22:56 完成整个查询任务,所用时间为0.094271898269653
+2014-12-17 00:23:53 查询 SELECT * FROM `task` where id = 10
+2014-12-17 00:23:53 获取一条记录 SELECT * FROM `task` where id = 10
+2014-12-17 00:23:53 释放结果集
+2014-12-17 00:23:53 完成整个查询任务,所用时间为0.092296838760376
+2014-12-17 00:23:53 查询 SELECT * FROM `task` where id = 10
+2014-12-17 00:23:53 获取一条记录 SELECT * FROM `task` where id = 10
+2014-12-17 00:23:53 释放结果集
+2014-12-17 00:23:53 完成整个查询任务,所用时间为0.11670804023743
+2014-12-17 00:23:57 更新 update task set title = 'sgsdddd',content = 'fgsdgddd',title = 'sgsdddd',content = 'fgsdgddd' where 1=1 and id=
+2014-12-17 00:23:57 查询 update task set title = 'sgsdddd',content = 'fgsdgddd',title = 'sgsdddd',content = 'fgsdgddd' where 1=1 and id=
+2014-12-17 00:23:57 Query Error: update task set title = 'sgsdddd',content = 'fgsdgddd',title = 'sgsdddd',content = 'fgsdgddd' where 1=1 and id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2014-12-17 00:23:57 释放结果集
+2014-12-17 00:23:57 完成整个查询任务,所用时间为0.090286016464233
+2014-12-17 00:39:06 查询 SELECT * FROM `task` where id = 10
+2014-12-17 00:39:06 获取一条记录 SELECT * FROM `task` where id = 10
+2014-12-17 00:39:06 释放结果集
+2014-12-17 00:39:06 完成整个查询任务,所用时间为0.14298009872437
+2014-12-17 00:39:10 更新 update task set title = 'sgsd反反复复',content = 'fgsdg',title = 'sgsd反反复复',content = 'fgsdg' where 1=1 and id=
+2014-12-17 00:39:10 查询 update task set title = 'sgsd反反复复',content = 'fgsdg',title = 'sgsd反反复复',content = 'fgsdg' where 1=1 and id=
+2014-12-17 00:39:10 Query Error: update task set title = 'sgsd反反复复',content = 'fgsdg',title = 'sgsd反反复复',content = 'fgsdg' where 1=1 and id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2014-12-17 00:39:10 释放结果集
+2014-12-17 00:39:10 完成整个查询任务,所用时间为0.088633060455322
+2014-12-17 00:39:48 释放结果集
+2014-12-17 00:39:48 完成整个查询任务,所用时间为0.068417072296143
+2014-12-17 00:39:55 释放结果集
+2014-12-17 00:39:55 完成整个查询任务,所用时间为0.066282033920288
+2014-12-17 00:40:24 查询 SELECT * FROM `task` where id = 10
+2014-12-17 00:40:24 获取一条记录 SELECT * FROM `task` where id = 10
+2014-12-17 00:40:24 释放结果集
+2014-12-17 00:40:24 完成整个查询任务,所用时间为0.091502904891968
+2014-12-17 00:40:28 查询 SELECT * FROM `task` where id = 
+2014-12-17 00:40:28 Query Error: SELECT * FROM `task` where id = 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2014-12-17 00:40:28 释放结果集
+2014-12-17 00:40:28 完成整个查询任务,所用时间为0.097492933273315
+2014-12-17 02:32:09 查询 SELECT * FROM `task` where id = 1
+2014-12-17 02:32:09 获取一条记录 SELECT * FROM `task` where id = 1
+2014-12-17 02:32:09 释放结果集
+2014-12-17 02:32:09 完成整个查询任务,所用时间为0.20286417007446
+2014-12-17 02:35:11 查询 SELECT * FROM `task` where id = 1
+2014-12-17 02:35:11 获取一条记录 SELECT * FROM `task` where id = 1
+2014-12-17 02:35:11 释放结果集
+2014-12-17 02:35:11 完成整个查询任务,所用时间为0.26564502716064
+2014-12-17 02:39:01 查询 SELECT * FROM `task` where id = 1
+2014-12-17 02:39:01 获取一条记录 SELECT * FROM `task` where id = 1
+2014-12-17 02:39:01 释放结果集
+2014-12-17 02:39:01 完成整个查询任务,所用时间为0.68323302268982
+2014-12-17 02:39:28 更新 update task set title = '些盘文章',content = '啊时代发生地方dd ',title = '些盘文章',content = '啊时代发生地方dd ' where 1=1 and id=
+2014-12-17 02:39:28 查询 update task set title = '些盘文章',content = '啊时代发生地方dd ',title = '些盘文章',content = '啊时代发生地方dd ' where 1=1 and id=
+2014-12-17 02:39:28 Query Error: update task set title = '些盘文章',content = '啊时代发生地方dd ',title = '些盘文章',content = '啊时代发生地方dd ' where 1=1 and id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2014-12-17 02:39:28 释放结果集
+2014-12-17 02:39:28 完成整个查询任务,所用时间为0.39525413513184
+2014-12-17 02:39:33 查询 SELECT * FROM `task` where id = 1
+2014-12-17 02:39:33 获取一条记录 SELECT * FROM `task` where id = 1
+2014-12-17 02:39:33 释放结果集
+2014-12-17 02:39:33 完成整个查询任务,所用时间为0.2634379863739
+2014-12-17 02:39:35 更新 update task set title = '些盘文章',content = '啊时代发生地方',title = '些盘文章',content = '啊时代发生地方' where 1=1 and id=
+2014-12-17 02:39:35 查询 update task set title = '些盘文章',content = '啊时代发生地方',title = '些盘文章',content = '啊时代发生地方' where 1=1 and id=
+2014-12-17 02:39:35 Query Error: update task set title = '些盘文章',content = '啊时代发生地方',title = '些盘文章',content = '啊时代发生地方' where 1=1 and id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2014-12-17 02:39:35 释放结果集
+2014-12-17 02:39:35 完成整个查询任务,所用时间为0.24487709999084
+2014-12-17 02:41:36 查询 SELECT * FROM `task` where id = 1
+2014-12-17 02:41:37 获取一条记录 SELECT * FROM `task` where id = 1
+2014-12-17 02:41:37 释放结果集
+2014-12-17 02:41:37 完成整个查询任务,所用时间为0.35984301567078
+2014-12-17 02:41:39 查询 SELECT * FROM `task` where id = 1
+2014-12-17 02:41:40 获取一条记录 SELECT * FROM `task` where id = 1
+2014-12-17 02:41:40 释放结果集
+2014-12-17 02:41:40 完成整个查询任务,所用时间为0.29407787322998
+2014-12-17 02:41:42 更新 update task set title = '些盘文章ddd',content = '啊时代发生地方',title = '些盘文章ddd',content = '啊时代发生地方' where 1=1 and id=1
+2014-12-17 02:41:42 查询 update task set title = '些盘文章ddd',content = '啊时代发生地方',title = '些盘文章ddd',content = '啊时代发生地方' where 1=1 and id=1
+2014-12-17 02:41:42 释放结果集
+2014-12-17 02:41:42 完成整个查询任务,所用时间为0.22802901268005
+2014-12-17 02:41:56 查询 SELECT * FROM `task` where id = 11
+2014-12-17 02:41:56 获取一条记录 SELECT * FROM `task` where id = 11
+2014-12-17 02:41:56 释放结果集
+2014-12-17 02:41:56 完成整个查询任务,所用时间为0.2490918636322
+2014-12-17 02:42:00 更新 update task set title = 'dsfdfdddddd',content = 'dfdf',title = 'dsfdfdddddd',content = 'dfdf' where 1=1 and id=11
+2014-12-17 02:42:00 查询 update task set title = 'dsfdfdddddd',content = 'dfdf',title = 'dsfdfdddddd',content = 'dfdf' where 1=1 and id=11
+2014-12-17 02:42:00 释放结果集
+2014-12-17 02:42:00 完成整个查询任务,所用时间为0.39860415458679
+2014-12-17 02:42:35 查询 SELECT * FROM `task` where id = 3
+2014-12-17 02:42:35 获取一条记录 SELECT * FROM `task` where id = 3
+2014-12-17 02:42:35 释放结果集
+2014-12-17 02:42:35 完成整个查询任务,所用时间为0.22341704368591
+2014-12-17 02:42:37 更新 update task set title = 'ddddsdfgsdfg',content = 'sdfasdf',title = 'ddddsdfgsdfg',content = 'sdfasdf' where 1=1 and id=3
+2014-12-17 02:42:37 查询 update task set title = 'ddddsdfgsdfg',content = 'sdfasdf',title = 'ddddsdfgsdfg',content = 'sdfasdf' where 1=1 and id=3
+2014-12-17 02:42:37 释放结果集
+2014-12-17 02:42:37 完成整个查询任务,所用时间为0.20393896102905
+2014-12-17 02:42:41 查询 SELECT * FROM `task` where id = 1
+2014-12-17 02:42:41 获取一条记录 SELECT * FROM `task` where id = 1
+2014-12-17 02:42:41 释放结果集
+2014-12-17 02:42:41 完成整个查询任务,所用时间为0.21438193321228
+2014-12-17 02:42:43 更新 update task set title = '些盘文章dddddddd',content = '啊时代发生地方',title = '些盘文章dddddddd',content = '啊时代发生地方' where 1=1 and id=1
+2014-12-17 02:42:43 查询 update task set title = '些盘文章dddddddd',content = '啊时代发生地方',title = '些盘文章dddddddd',content = '啊时代发生地方' where 1=1 and id=1
+2014-12-17 02:42:43 释放结果集
+2014-12-17 02:42:43 完成整个查询任务,所用时间为0.24284791946411
+2014-12-17 02:44:04 插入 insert into task(id,title,content) values('','asdfasdf','asdfasdfasdf
+asdf
+asdf
+#sdfasdf')
+2014-12-17 02:44:04 查询 insert into task(id,title,content) values('','asdfasdf','asdfasdfasdf
+asdf
+asdf
+#sdfasdf')
+2014-12-17 02:44:04 释放结果集
+2014-12-17 02:44:04 完成整个查询任务,所用时间为0.25496506690979
+2014-12-17 02:44:08 查询 SELECT * FROM `task` where id = 21
+2014-12-17 02:44:08 获取一条记录 SELECT * FROM `task` where id = 21
+2014-12-17 02:44:08 释放结果集
+2014-12-17 02:44:08 完成整个查询任务,所用时间为0.31447601318359
+2014-12-17 02:44:11 更新 update task set title = 'asdfasdfdddddddddddddd',content = 'asdfasdfasdf
+asdf
+asdf
+#sdfasdf',title = 'asdfasdfdddddddddddddd',content = 'asdfasdfasdf
+asdf
+asdf
+#sdfasdf' where 1=1 and id=21
+2014-12-17 02:44:11 查询 update task set title = 'asdfasdfdddddddddddddd',content = 'asdfasdfasdf
+asdf
+asdf
+#sdfasdf',title = 'asdfasdfdddddddddddddd',content = 'asdfasdfasdf
+asdf
+asdf
+#sdfasdf' where 1=1 and id=21
+2014-12-17 02:44:12 释放结果集
+2014-12-17 02:44:12 完成整个查询任务,所用时间为0.20658898353577

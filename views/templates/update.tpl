@@ -10,8 +10,8 @@
 	<{/block}>
 	<{block name="content"}>
 		<div class="side-right">
-			<form action="update.php" method="post">
-			<input type="hidden" value="<{$list.id}>" />
+			<form action="update.php/update" method="post">
+				<input type="hidden" name="id" value="<{$list.id}>" />
 				<label>标题</label>：<input type="text" name="title" value="<{$list.title}>" />
 				<br/>
 				<br/>
@@ -22,7 +22,5 @@
 		</div>
 		<div class="side-right">
 			<iframe src="" id="preview" frameborder="0" height="360"></iframe>
-
-			<iframe src="" id="preview_answer" frameborder="0" height="360">></iframe>
 		</div>
 	<{/block}>

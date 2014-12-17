@@ -6,24 +6,25 @@ $tpl->assign("title", "招聘试题");
 $tpl->assign("description", "招聘试题管理系统");
 
 $db = new DB();
-$id = $_GET['id'];
-$sql = "SELECT * FROM `task` where id = ".$id;
-$result = $db->get_one($sql);
+//展示页面
+if(isset($_GET['id'])){
+	$id = $_GET['id'];
+	$sql = "SELECT * FROM `task` where id = ".$id;
+	$result = $db->get_one($sql);
 
-$tagId = $result['project_id'];
-//echo $projectId;
-//$tagSql = "SELECT * FROM `project` where id = ".$projectId;
-//$tagRes = $db->get_one($tagSql);
+	$tagId = $result['project_id'];
+	//echo $projectId;
+	//$tagSql = "SELECT * FROM `project` where id = ".$projectId;
+	//$tagRes = $db->get_one($tagSql);
 
-//$result['tag'] = $tagRes['titel'];
+	//$result['tag'] = $tagRes['titel'];
 
-$tpl->assign("list", $result);
-$tpl->display("update.tpl");
+	$tpl->assign("list", $result);
+	$tpl->display("update.tpl");
+}
 
-
+//修改操作
 if(isset($_POST['title'])){
-    $db = new DB();
-
 	$data['title'] = $_POST['title'];
 	if(isset($_POST['tag'])){
         $tagData['id'] = "";
@@ -33,12 +34,13 @@ if(isset($_POST['title'])){
 	}
 
 	$data['content'] = $_POST['content'];
-	$data['answer'] = $_POST['answer'];
+    $db->update('task',$data,'id='.$_POST['id']);
 
-
-  $db->update('task',$data,'id='.$_POST['id']);
-
-
+    $url = "http://".$_SERVER['HTTP_HOST']."/taskFlow"; 
+  //header("Location: ".$url); 
+	echo "<script language='javascript' type='text/javascript'>"; 
+	echo "window.location.href='$url'"; 
+	echo "</script>";
 }
 
 
