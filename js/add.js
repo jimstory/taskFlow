@@ -20,8 +20,11 @@ $(function() {
   };
 
 
-  $('#picker_endtime').datePicker({followOffset : [0, 24]});
+  if($('#picker_endtime').is('input')){
+ 	$('#picker_endtime').datePicker({followOffset : [0, 24]});
+  }
 
+ 
    /**
    *跟新显示效果
    */
