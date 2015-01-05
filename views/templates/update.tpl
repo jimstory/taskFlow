@@ -1,6 +1,6 @@
 <{extends file="layout.tpl"}>
 	<{block name="head" append}>
-		<title>page Title</title>
+		<title><{$title}></title>
 		<link rel="stylesheet" type="text/css" href="../css/codemirror.css">
 		<link rel="stylesheet" type="text/css" href="../css/add.css">
 		<script type="text/javascript" src="../js/jquery.min.js"></script> 

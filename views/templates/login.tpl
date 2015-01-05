@@ -8,15 +8,16 @@
 		<script type="text/javascript" src="../js/marked.js"></script> 
 		<script type="text/javascript">
 			$(function() {
-				  (function() {
-				    $("#content").html(marked($("#content").html()));
-				  })();
+
 				  })
 	  		</script>
 		<{/block}>
 	<{block name="content"}>
 		<div>
-			<h1><{$list.title}></h1>
-			<div id="content"><{$list.content}></div>
+		<form action="login.php" method="post">
+			<label>名字：</label><input type="text" name="name">
+			<label>密码：</label><input type="text" name="password">
+			<input type="submit" value="登陆">
+		</form>
 		</div>
 	<{/block}>

@@ -1,4 +1,5 @@
 <?php
+session_start();
 include  $_SERVER['DOCUMENT_ROOT'] ."taskFlow/config.inc.php";
 include  $_SERVER['DOCUMENT_ROOT'] ."taskFlow/db.php";
 
@@ -12,4 +13,6 @@ include  $_SERVER['DOCUMENT_ROOT'] ."taskFlow/db.php";
   //var_dump($result);
   $tpl->assign("list", $result);
   $tpl->display("index.tpl");
+
+
 ?>
