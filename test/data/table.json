@@ -1,0 +1,69 @@
+{
+	"thead": {
+		"id": "ID",
+		"title": "名称",
+		"status": "状态",
+		"subject": "所属项目",
+		"definition": "任务类型",
+		"priority": "优先级",
+		"manHours": "工时",
+		"status": "状态",
+		"assignee": "负责人",
+		"points": "进度",
+		"startDate": "计划开始时间",
+		"endDate": "计划结束时间"
+	},
+	"tbody": [{
+		"data": {
+			"id": "19",
+			"title": {
+				"value": "开发表格控件",
+				"type": "link",
+				"url": "task/20"
+			},
+			"subject": "需求管理",
+			"definition": "评审任务",
+			"priority": "P3",
+			"manHours": "1.2",
+			"status": "已关闭",
+			"assignee": "管理员",
+			"points": "30",
+			"startDate": "2012-05-07",
+			"endDate": "2012-05-09"
+		},
+		"attribute": {
+			"bgColor": "closed",
+			"hasFile": true,
+			"edit": true,
+			"links": {
+				"id": "task/19"
+			}
+		}
+	}, {
+		"data": {
+			"id": "20",
+			"title": {
+				"value": "开发表格控件",
+				"type": "link",
+				"url": "task/20"
+			},
+			"subject": "需求管理",
+			"definition": "评审任务",
+			"priority": "P3",
+			"manHours": "1.2",
+			"status": "已关闭",
+			"assignee": "管理员",
+			"points": "30",
+			"startDate": "2012-05-07",
+			"endDate": "2012-05-09"
+		},
+		"attribute": {
+			"bgColor": "closed",
+			"hasFile": true,
+			"edit": true,
+			"links": {
+				"id": "task/20"
+			}
+		}
+	}]
+}
