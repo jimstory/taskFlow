@@ -1,0 +1,925 @@
+{
+    "project": {},
+    "files": {
+        "js\\add.js": {
+            "name": "js\\add.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "js\\jquery-1.9.1.js": {
+            "name": "js\\jquery-1.9.1.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "js\\jquery.DatePicker.js": {
+            "name": "js\\jquery.DatePicker.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "js\\marked.js": {
+            "name": "js\\marked.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "lhz_table\\lhz_table.js": {
+            "name": "lhz_table\\lhz_table.js",
+            "modules": {},
+            "classes": {
+                "Table": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "test\\qunit.js": {
+            "name": "test\\qunit.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "Table": {
+            "name": "Table",
+            "shortname": "Table",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "lhz_table\\lhz_table.js",
+            "line": 17,
+            "description": "Table对象",
+            "is_constructor": 1,
+            "params": [
+                {
+                    "name": "ajax成功的返回数据",
+                    "description": "",
+                    "type": "Json"
+                }
+            ],
+            "return": {
+                "description": "返回HTML的字符串",
+                "type": "String"
+            }
+        }
+    },
+    "classitems": [
+        {
+            "file": "js\\add.js",
+            "line": 28,
+            "description": "跟新显示效果",
+            "class": "Table"
+        },
+        {
+            "file": "js\\jquery-1.9.1.js",
+            "line": 3837,
+            "description": "For feature detection",
+            "params": [
+                {
+                    "name": "fn",
+                    "description": "The function to test for native support",
+                    "type": "Function"
+                }
+            ],
+            "class": "Table"
+        },
+        {
+            "file": "js\\jquery-1.9.1.js",
+            "line": 3845,
+            "description": "Create key-value caches of limited size",
+            "return": {
+                "description": "Returns the Object data after storing it on itself with\n\tproperty name the (space-suffixed) string and (if the cache is larger than Expr.cacheLength)\n\tdeleting the oldest entry",
+                "type": "Function(string, Object)"
+            },
+            "class": "Table"
+        },
+        {
+            "file": "js\\jquery-1.9.1.js",
+            "line": 3865,
+            "description": "Mark a function for special use by Sizzle",
+            "params": [
+                {
+                    "name": "fn",
+                    "description": "The function to mark",
+                    "type": "Function"
+                }
+            ],
+            "class": "Table"
+        },
+        {
+            "file": "js\\jquery-1.9.1.js",
+            "line": 3874,
+            "description": "Support testing using an element",
+            "params": [
+                {
+                    "name": "fn",
+                    "description": "Passed the created div and expects a boolean result",
+                    "type": "Function"
+                }
+            ],
+            "class": "Table"
+        },
+        {
+            "file": "js\\jquery-1.9.1.js",
+            "line": 4001,
+            "description": "Detect xml",
+            "params": [
+                {
+                    "name": "elem",
+                    "description": "An element or a document",
+                    "type": "Element|Object"
+                }
+            ],
+            "class": "Table"
+        },
+        {
+            "file": "js\\jquery-1.9.1.js",
+            "line": 4012,
+            "description": "Sets document-related variables once based on the current document",
+            "params": [
+                {
+                    "name": "doc",
+                    "description": "An element or document object to use to set the document",
+                    "type": "Element|Object",
+                    "optional": true
+                }
+            ],
+            "return": {
+                "description": "Returns the current document",
+                "type": "Object"
+            },
+            "class": "Table"
+        },
+        {
+            "file": "js\\jquery-1.9.1.js",
+            "line": 4505,
+            "description": "Utility function for retrieving the text value of an array of DOM nodes",
+            "params": [
+                {
+                    "name": "elem",
+                    "description": "",
+                    "type": "Array|Element"
+                }
+            ],
+            "class": "Table"
+        },
+        {
+            "file": "js\\jquery.DatePicker.js",
+            "line": 1,
+            "description": "jQuery DatePicker\nauthor: admin@laoshu133.com\ncreate: 2012.05.11\nupdate: 2014.11.20\n\n-- 接口说明 --",
+            "options": "{Object}\n       - {\n           shell: null,                         //触发元素，如果为input类，onselect会自动设置值\n           shellTriggerEvent: 'focus',       \t //显示DatePicker的默认触发事件\n           follow: null,                        //跟随元素，如果没有，则为 shell\n           followOffset: [0, 0],                //跟随偏移值[x, y]\n           showMode: 0,                         //显示模式：0 - 年月日, 1 - 年月, 2 - 年\n           autoHide: true,                      //是否自动隐藏，如果为 true，当触发 document的click时，会自动隐藏\n           effect: 'show',                      //默认打开动画，基于JQ默认动画，默认：show\n           effectDuration: 0,                   //动画时长，和effect配合使用\n           altFormat: 'yyyy-mm-dd',             //返回时间格式\n           unitYearSize: 12,                    //选择年份时，每页显示个数\n           defaultDate: null,                   //默认值\n           minDate: null,                       //最小值，默认：1680-1-1\n           maxDate: null,                       //最大值，默认：2999-12-12\n           onselect: ds.noop,                \t //选择时，回调函数\n           onmouseenter: ds.noop,               //鼠标进入DatePicker区域，触发\n           onmouseleave: ds.noop                //鼠标离开DatePicker区域，触发\n       }\n-- 接口说明 end --",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 1,
+            "description": "marked - a markdown parser\nCopyright (c) 2011-2014, Christopher Jeffrey. (MIT Licensed)\nhttps://github.com/chjj/marked",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 9,
+            "description": "Block-Level Grammar",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 67,
+            "description": "Normal Block Grammar",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 73,
+            "description": "GFM Block Grammar",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 88,
+            "description": "GFM + Tables Block Grammar",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 97,
+            "description": "Block Lexer",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 116,
+            "description": "Expose Block Rules",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 122,
+            "description": "Static Lex Method",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 131,
+            "description": "Preprocessing",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 145,
+            "description": "Lexing",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 444,
+            "description": "Inline-Level Grammar",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 476,
+            "description": "Normal Inline Grammar",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 482,
+            "description": "Pedantic Inline Grammar",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 491,
+            "description": "GFM Inline Grammar",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 505,
+            "description": "GFM + Line Breaks Inline Grammar",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 514,
+            "description": "Inline Lexer & Compiler",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 541,
+            "description": "Expose Inline Rules",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 547,
+            "description": "Static Lexing/Compiling Method",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 556,
+            "description": "Lexing/Compiling",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 694,
+            "description": "Compile Link",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 707,
+            "description": "Smartypants Transformations",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 728,
+            "description": "Mangle Links",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 749,
+            "description": "Renderer",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 892,
+            "description": "Parsing & Compiling",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 905,
+            "description": "Static Parse Method",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 914,
+            "description": "Parse Loop",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 930,
+            "description": "Next Token",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 938,
+            "description": "Preview Next Token",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 946,
+            "description": "Parse Text Tokens",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 960,
+            "description": "Parse Current Token",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 1072,
+            "description": "Helpers",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 1131,
+            "description": "Marked",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 1219,
+            "description": "Options",
+            "class": "Table"
+        },
+        {
+            "file": "js\\marked.js",
+            "line": 1245,
+            "description": "Expose",
+            "class": "Table"
+        },
+        {
+            "file": "lhz_table\\lhz_table.js",
+            "line": 1,
+            "description": "jquery blockUI Dialog plugin \nv1.1",
+            "createdate": "-- 2012-1-4",
+            "author": "hoojo",
+            "email": "hoojo_@126.com",
+            "requires": [
+                "jQuery v1.2.3 or later",
+                "jquery.blockUI-2.3.8\nCopyright (c) 2012 M. hoo\nhttp://blog.csdn.net/IBM_hoojo"
+            ],
+            "class": "Table"
+        },
+        {
+            "file": "lhz_table\\lhz_table.js",
+            "line": 51,
+            "description": "生成tb框架代码",
+            "itemtype": "method",
+            "name": "creatTb",
+            "return": {
+                "description": "返回HTML的字符串",
+                "type": "String"
+            },
+            "class": "Table"
+        },
+        {
+            "file": "lhz_table\\lhz_table.js",
+            "line": 63,
+            "description": "根据获取的数据生成表格标题。",
+            "itemtype": "method",
+            "name": "creatThead",
+            "params": [
+                {
+                    "name": "ajax成功的返回数据",
+                    "description": "",
+                    "type": "Json"
+                }
+            ],
+            "return": {
+                "description": "返回HTML的字符串",
+                "type": "String"
+            },
+            "class": "Table"
+        },
+        {
+            "file": "lhz_table\\lhz_table.js",
+            "line": 84,
+            "description": "根据获取的数据生成表格内容,",
+            "itemtype": "method",
+            "name": "creatTbody",
+            "params": [
+                {
+                    "name": "ajax成功的返回数据",
+                    "description": "",
+                    "type": "Json"
+                }
+            ],
+            "return": {
+                "description": "返回HTML的字符串",
+                "type": "String"
+            },
+            "class": "Table"
+        },
+        {
+            "file": "lhz_table\\lhz_table.js",
+            "line": 107,
+            "description": "获取数据",
+            "itemtype": "method",
+            "name": "getData",
+            "params": [
+                {
+                    "name": "要获取数据的类型",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "数据json格式",
+                "type": "Json"
+            },
+            "class": "Table"
+        },
+        {
+            "file": "test\\qunit.js",
+            "line": 44,
+            "description": "Provides a normalized error string, correcting an issue\nwith IE 7 (and prior) where Error.prototype.toString is\nnot properly implemented\n\nBased on http://es5.github.com/#x15.11.4.4",
+            "params": [
+                {
+                    "name": "error",
+                    "description": "",
+                    "type": "String|Error"
+                }
+            ],
+            "return": {
+                "description": "error message",
+                "type": "String"
+            },
+            "class": ""
+        },
+        {
+            "file": "test\\qunit.js",
+            "line": 73,
+            "description": "Makes a clone of an object using only Array or Object as base,\nand copies over the own enumerable properties.",
+            "params": [
+                {
+                    "name": "obj",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "New object with only the own properties (recursively).",
+                "type": "Object"
+            },
+            "class": ""
+        },
+        {
+            "file": "test\\qunit.js",
+            "line": 94,
+            "description": "Config object: Maintain internal state\nLater exposed as QUnit.config\n`config` initialized at top of scope",
+            "class": ""
+        },
+        {
+            "file": "test\\qunit.js",
+            "line": 1305,
+            "description": "Asserts rough true-ish result.",
+            "name": "",
+            "itemtype": "method",
+            "example": [
+                " ok( \"asdfasdf\".length > 5, \"There must be at least 5 chars\" );"
+            ],
+            "class": ""
+        },
+        {
+            "file": "test\\qunit.js",
+            "line": 1317,
+            "description": "Assert that the first two arguments are equal, with an optional message.\nPrints out both actual and expected values.",
+            "name": "",
+            "itemtype": "method",
+            "example": [
+                " equal( format( \"{0} bytes.\", 2), \"2 bytes.\", \"replaces {0} with next argument\" );"
+            ],
+            "class": ""
+        },
+        {
+            "file": "test\\qunit.js",
+            "line": 1329,
+            "name": "",
+            "itemtype": "method",
+            "class": ""
+        },
+        {
+            "file": "test\\qunit.js",
+            "line": 1338,
+            "name": "",
+            "itemtype": "method",
+            "class": ""
+        },
+        {
+            "file": "test\\qunit.js",
+            "line": 1348,
+            "name": "",
+            "itemtype": "method",
+            "class": ""
+        },
+        {
+            "file": "test\\qunit.js",
+            "line": 1358,
+            "name": "",
+            "itemtype": "method",
+            "class": ""
+        },
+        {
+            "file": "test\\qunit.js",
+            "line": 1366,
+            "name": "",
+            "itemtype": "method",
+            "class": ""
+        },
+        {
+            "file": "test\\qunit.js",
+            "line": 1374,
+            "name": "",
+            "itemtype": "method",
+            "class": ""
+        },
+        {
+            "file": "test\\qunit.js",
+            "line": 1382,
+            "name": "",
+            "itemtype": "method",
+            "class": ""
+        },
+        {
+            "file": "test\\qunit.js",
+            "line": 2235,
+            "description": "Escape text for attribute or text content.",
+            "class": ""
+        },
+        {
+            "file": "test\\qunit.js",
+            "line": 2261,
+            "params": [
+                {
+                    "name": "elem",
+                    "description": "",
+                    "type": "HTMLElement"
+                },
+                {
+                    "name": "type",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "fn",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": ""
+        },
+        {
+            "file": "test\\qunit.js",
+            "line": 2278,
+            "params": [
+                {
+                    "name": "elems",
+                    "description": "",
+                    "type": "Array|NodeList"
+                },
+                {
+                    "name": "type",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "fn",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": ""
+        }
+    ],
+    "warnings": [
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " js\\jquery-1.9.1.js:3845"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " js\\jquery-1.9.1.js:4012"
+        },
+        {
+            "message": "unknown tag: options",
+            "line": " js\\jquery.DatePicker.js:1"
+        },
+        {
+            "message": "unknown tag: createdate",
+            "line": " lhz_table\\lhz_table.js:1"
+        },
+        {
+            "message": "unknown tag: email",
+            "line": " lhz_table\\lhz_table.js:1"
+        },
+        {
+            "message": "unknown tag: name",
+            "line": " test\\qunit.js:1305"
+        },
+        {
+            "message": "replacing incorrect tag: function with method",
+            "line": " test\\qunit.js:1305"
+        },
+        {
+            "message": "unknown tag: name",
+            "line": " test\\qunit.js:1317"
+        },
+        {
+            "message": "replacing incorrect tag: function with method",
+            "line": " test\\qunit.js:1317"
+        },
+        {
+            "message": "unknown tag: name",
+            "line": " test\\qunit.js:1329"
+        },
+        {
+            "message": "replacing incorrect tag: function with method",
+            "line": " test\\qunit.js:1329"
+        },
+        {
+            "message": "unknown tag: name",
+            "line": " test\\qunit.js:1338"
+        },
+        {
+            "message": "replacing incorrect tag: function with method",
+            "line": " test\\qunit.js:1338"
+        },
+        {
+            "message": "unknown tag: name",
+            "line": " test\\qunit.js:1348"
+        },
+        {
+            "message": "replacing incorrect tag: function with method",
+            "line": " test\\qunit.js:1348"
+        },
+        {
+            "message": "unknown tag: name",
+            "line": " test\\qunit.js:1358"
+        },
+        {
+            "message": "replacing incorrect tag: function with method",
+            "line": " test\\qunit.js:1358"
+        },
+        {
+            "message": "unknown tag: name",
+            "line": " test\\qunit.js:1366"
+        },
+        {
+            "message": "replacing incorrect tag: function with method",
+            "line": " test\\qunit.js:1366"
+        },
+        {
+            "message": "unknown tag: name",
+            "line": " test\\qunit.js:1374"
+        },
+        {
+            "message": "replacing incorrect tag: function with method",
+            "line": " test\\qunit.js:1374"
+        },
+        {
+            "message": "unknown tag: name",
+            "line": " test\\qunit.js:1382"
+        },
+        {
+            "message": "replacing incorrect tag: function with method",
+            "line": " test\\qunit.js:1382"
+        },
+        {
+            "message": "Missing item type\n跟新显示效果",
+            "line": " js\\add.js:28"
+        },
+        {
+            "message": "Missing item type\nFor feature detection",
+            "line": " js\\jquery-1.9.1.js:3837"
+        },
+        {
+            "message": "Missing item type\nCreate key-value caches of limited size",
+            "line": " js\\jquery-1.9.1.js:3845"
+        },
+        {
+            "message": "Missing item type\nMark a function for special use by Sizzle",
+            "line": " js\\jquery-1.9.1.js:3865"
+        },
+        {
+            "message": "Missing item type\nSupport testing using an element",
+            "line": " js\\jquery-1.9.1.js:3874"
+        },
+        {
+            "message": "Missing item type\nDetect xml",
+            "line": " js\\jquery-1.9.1.js:4001"
+        },
+        {
+            "message": "Missing item type\nSets document-related variables once based on the current document",
+            "line": " js\\jquery-1.9.1.js:4012"
+        },
+        {
+            "message": "Missing item type\nUtility function for retrieving the text value of an array of DOM nodes",
+            "line": " js\\jquery-1.9.1.js:4505"
+        },
+        {
+            "message": "Missing item type\njQuery DatePicker\nauthor: admin@laoshu133.com\ncreate: 2012.05.11\nupdate: 2014.11.20\n\n-- 接口说明 --",
+            "line": " js\\jquery.DatePicker.js:1"
+        },
+        {
+            "message": "Missing item type\nmarked - a markdown parser\nCopyright (c) 2011-2014, Christopher Jeffrey. (MIT Licensed)\nhttps://github.com/chjj/marked",
+            "line": " js\\marked.js:1"
+        },
+        {
+            "message": "Missing item type\nBlock-Level Grammar",
+            "line": " js\\marked.js:9"
+        },
+        {
+            "message": "Missing item type\nNormal Block Grammar",
+            "line": " js\\marked.js:67"
+        },
+        {
+            "message": "Missing item type\nGFM Block Grammar",
+            "line": " js\\marked.js:73"
+        },
+        {
+            "message": "Missing item type\nGFM + Tables Block Grammar",
+            "line": " js\\marked.js:88"
+        },
+        {
+            "message": "Missing item type\nBlock Lexer",
+            "line": " js\\marked.js:97"
+        },
+        {
+            "message": "Missing item type\nExpose Block Rules",
+            "line": " js\\marked.js:116"
+        },
+        {
+            "message": "Missing item type\nStatic Lex Method",
+            "line": " js\\marked.js:122"
+        },
+        {
+            "message": "Missing item type\nPreprocessing",
+            "line": " js\\marked.js:131"
+        },
+        {
+            "message": "Missing item type\nLexing",
+            "line": " js\\marked.js:145"
+        },
+        {
+            "message": "Missing item type\nInline-Level Grammar",
+            "line": " js\\marked.js:444"
+        },
+        {
+            "message": "Missing item type\nNormal Inline Grammar",
+            "line": " js\\marked.js:476"
+        },
+        {
+            "message": "Missing item type\nPedantic Inline Grammar",
+            "line": " js\\marked.js:482"
+        },
+        {
+            "message": "Missing item type\nGFM Inline Grammar",
+            "line": " js\\marked.js:491"
+        },
+        {
+            "message": "Missing item type\nGFM + Line Breaks Inline Grammar",
+            "line": " js\\marked.js:505"
+        },
+        {
+            "message": "Missing item type\nInline Lexer & Compiler",
+            "line": " js\\marked.js:514"
+        },
+        {
+            "message": "Missing item type\nExpose Inline Rules",
+            "line": " js\\marked.js:541"
+        },
+        {
+            "message": "Missing item type\nStatic Lexing/Compiling Method",
+            "line": " js\\marked.js:547"
+        },
+        {
+            "message": "Missing item type\nLexing/Compiling",
+            "line": " js\\marked.js:556"
+        },
+        {
+            "message": "Missing item type\nCompile Link",
+            "line": " js\\marked.js:694"
+        },
+        {
+            "message": "Missing item type\nSmartypants Transformations",
+            "line": " js\\marked.js:707"
+        },
+        {
+            "message": "Missing item type\nMangle Links",
+            "line": " js\\marked.js:728"
+        },
+        {
+            "message": "Missing item type\nRenderer",
+            "line": " js\\marked.js:749"
+        },
+        {
+            "message": "Missing item type\nParsing & Compiling",
+            "line": " js\\marked.js:892"
+        },
+        {
+            "message": "Missing item type\nStatic Parse Method",
+            "line": " js\\marked.js:905"
+        },
+        {
+            "message": "Missing item type\nParse Loop",
+            "line": " js\\marked.js:914"
+        },
+        {
+            "message": "Missing item type\nNext Token",
+            "line": " js\\marked.js:930"
+        },
+        {
+            "message": "Missing item type\nPreview Next Token",
+            "line": " js\\marked.js:938"
+        },
+        {
+            "message": "Missing item type\nParse Text Tokens",
+            "line": " js\\marked.js:946"
+        },
+        {
+            "message": "Missing item type\nParse Current Token",
+            "line": " js\\marked.js:960"
+        },
+        {
+            "message": "Missing item type\nHelpers",
+            "line": " js\\marked.js:1072"
+        },
+        {
+            "message": "Missing item type\nMarked",
+            "line": " js\\marked.js:1131"
+        },
+        {
+            "message": "Missing item type\nOptions",
+            "line": " js\\marked.js:1219"
+        },
+        {
+            "message": "Missing item type\nExpose",
+            "line": " js\\marked.js:1245"
+        },
+        {
+            "message": "Missing item type\njquery blockUI Dialog plugin \nv1.1",
+            "line": " lhz_table\\lhz_table.js:1"
+        },
+        {
+            "message": "Missing item type\nProvides a normalized error string, correcting an issue\nwith IE 7 (and prior) where Error.prototype.toString is\nnot properly implemented\n\nBased on http://es5.github.com/#x15.11.4.4",
+            "line": " test\\qunit.js:44"
+        },
+        {
+            "message": "Missing item type\nMakes a clone of an object using only Array or Object as base,\nand copies over the own enumerable properties.",
+            "line": " test\\qunit.js:73"
+        },
+        {
+            "message": "Missing item type\nConfig object: Maintain internal state\nLater exposed as QUnit.config\n`config` initialized at top of scope",
+            "line": " test\\qunit.js:94"
+        },
+        {
+            "message": "Missing item type\nEscape text for attribute or text content.",
+            "line": " test\\qunit.js:2235"
+        },
+        {
+            "message": "Missing item type",
+            "line": " test\\qunit.js:2261"
+        },
+        {
+            "message": "Missing item type",
+            "line": " test\\qunit.js:2278"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+.lhz_tb {
+	border-collapse: collapse;
+}
+.lhz_tb td {
+	border: 1px #ddd solid;
+	padding: 3px 8px;
+}
+.lhz_tb thead {
+	text-align: center;
+	font-weight: bold;
+}
