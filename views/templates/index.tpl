@@ -7,7 +7,7 @@
 		<script>
 		$(document).ready(function(){
 			 var tb = $("#table").lhz_table();
-			 console.log(tb);
+			 //console.log(tb);
 			 //tb.refresh();
 			 //tb.hide();
 		});
