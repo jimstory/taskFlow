@@ -42,7 +42,12 @@ include  $_SERVER['DOCUMENT_ROOT'] ."taskFlow/db.php";
  	$data['thead'] =  $thead;
 
     $db = new DB();
-  	$list = $db->query('SELECT * FROM `task`');
+
+    if(isset($_GET['id'])){  	
+    	$list = $db->query('SELECT * FROM `task` where `project_id` = '.$_GET['id']);
+	}else{  	
+		$list = $db->query('SELECT * FROM `task`');
+	}
   
 	$tbody = array();
 	$fieldarr  = array();
@@ -55,6 +60,10 @@ include  $_SERVER['DOCUMENT_ROOT'] ."taskFlow/db.php";
 		$value = $temp['title'];
 		$url = './routes/detail.php?id='.$temp['id'];
 		$temp['title'] = array('type' => 'link', 'value' => $value,'url'=>$url);
+		
+
+		$level_value = $temp['level'];
+		$temp['level'] = array('type' => 'select', 'value' => $level_value);
 	    $tbody[] =  array('data'=>$temp,'attribute'=>array('links' =>array('title' => "task/19")));
 	}
 

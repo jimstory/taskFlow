@@ -23,9 +23,10 @@
 	 * @param {json} ajax成功的返回数据
 	 * @return {String} 返回HTML的字符串
 	 */
-	function Table(obj) {
+	function Table(obj, opts) {
 		var self = this;
 		this.obj = obj;
+		this.opts = opts;
 		this.init = function() {
 			obj.html(this.creatTb());
 			obj.find('thead').html(this.creatThead());
@@ -123,6 +124,9 @@
 				case 'link':
 					tdHtml = '<td><a href="' + obj.url + '">' + value + '</a></td>';
 					break;
+				case 'select':
+					tdHtml = '<td><select><option value="' + value + '">' + value + '</option></select></td>';
+					break;
 				case 'percent':
 					break;
 				default:
@@ -139,11 +143,12 @@
 		 */
 	function getData(type) {
 		var retData;
+		var url = this.opts.getDataUrl;
 		$.ajax({
 			dataType: "json",
 			async: false,
 			//url: './test/data/table.json',
-			url: './routes/getData.php',
+			url: url,
 			success: function(data) {
 				if (type == 'thead') {
 					retData = data.thead;
@@ -164,13 +169,6 @@
 	}
 
 
-	/*
-   $.fn.lhz_table.defaults = {    
-	  foreground: 'red',    
-	  background: 'yellow'    
-	};
-    */
-
 	$.fn.lhz_table = function(options) {
 		var opts = $.extend({}, $.fn.lhz_table.defaults, options);
 		var el = $(this).data("Layershow"),
@@ -179,11 +177,16 @@
 			var o = $.meta ? $.extend({}, opts, $this.data()) : opts;
 			var $this = $(this);
 
-			api = new Table($this);
+			api = new Table($this, opts);
 			//var markup = $this.html();      
 			//markup = $.fn.lhz_table.skin(markup);      
 		});
 		return api ? api : this;
+	};
+
+	$.fn.lhz_table.defaults = {
+		foreground: 'red',
+		"getDataUrl": './routes/getData.php'
 	};
 
 	$.fn.lhz_table.skin = function(txt) {

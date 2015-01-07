@@ -6,6 +6,7 @@
 		<script type="text/javascript" src="../js/jquery.min.js"></script> 
 		<script type="text/javascript" src="../js/codemirror.js"></script> 
 		<script type="text/javascript" src="../js/marked.js"></script> 
+		<link rel="stylesheet" type="text/css" href="../css/detail.css">
 		<script type="text/javascript">
 			$(function() {
 				  (function() {
@@ -15,7 +16,7 @@
 	  		</script>
 		<{/block}>
 	<{block name="content"}>
-		<div>
+		<div class="wrap">
 			<h1><{$list.title}></h1>
 			<div id="content"><{$list.content}></div>
 		</div>

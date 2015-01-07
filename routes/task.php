@@ -4,7 +4,7 @@ include  $_SERVER['DOCUMENT_ROOT'] ."taskFlow/config.inc.php";
 include  $_SERVER['DOCUMENT_ROOT'] ."taskFlow/db.php";
 
   $db = new DB();
-  /*$list = $db->query('SELECT * FROM `task`');
+  $list = $db->query('SELECT * FROM `task`');
 
 	$result = array();
 	while($row = mysql_fetch_array($list)) {
@@ -12,16 +12,6 @@ include  $_SERVER['DOCUMENT_ROOT'] ."taskFlow/db.php";
 	}
   //var_dump($result);
   $tpl->assign("list", $result);
-  */
 
-    $list = $db->query('SELECT * FROM `project`');
-
-	$result = array();
-	while($row = mysql_fetch_array($list)) {
-	    $result[] = $row;
-	}
-   //var_dump($result);
-    $tpl->assign("list", $result);
-
-  $tpl->display("index.tpl");
+  $tpl->display("task.tpl");
 ?>
